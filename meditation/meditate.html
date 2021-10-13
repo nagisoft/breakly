@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <link rel="stylesheet" href="styleM.css" />
+    <title>Meditation</title>
+            <link href="../assets/img/favicon.png" rel="icon">
+
+</head>
+
+<body>
+    
+
+    <video autoplay muted loop id="myVideo">
+        <source src="../assets/img/PexelVideos1484703.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    
+    <div class="content">
+        <p class="no-span"> Deep Breathing </p>
+        <audio id="player" src="../assets/RainFallMedium.mp3">
+        </audio>
+       <br><br>
+        
+      
+        <div class="circle-wrap">
+            <div class="circle-outline"></div>
+            <div class="circle-progress"></div>
+        </div>
+        
+        
+        <div class="pc">
+            <button class="start">Start</button>
+            <button class="iconB" onclick="document.getElementById('player').play()"><i class="fas fa-play-circle"></i></button>
+            <button class="iconB"  onclick="document.getElementById('player').pause()"><i class="fas fa-pause-circle"></i></button><br><br><br>
+            <p class="instructions"></p>
+        </div>
+    </div>
+    <script src="scriptM.js"></script>
+</body>
+
+</html>

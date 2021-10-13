@@ -1,0 +1,48 @@
+body {
+  background-color: #f4f4f4;
+  color: white;
+  font-family: "Lato";
+}
+.container-fluid {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 100%;
+}
+
+.blog-card {
+  background-color: white;
+  border-radius: 1px;
+  box-shadow: 0 0 2px -1px rgba(0, 0, 0, 0.75);
+  margin: 0 auto;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.card-body {
+  color: #7a7a7a;
+  height: 100%;
+  padding: 30px 20px 50px;
+}
+
+.tagline {
+  font-size: 8px;
+  text-transform: uppercase;
+}
+.title {
+  text-transform: uppercase;
+  color: #252830;
+  font-family: "Playfair Display SC";
+  font-size: 30px;
+  font-weight: 400;
+}
+.divider {
+  background: #7a7a7a;
+  height: 2px;
+  margin: 25px auto;
+  width: 40px;
+}
+.paragraph {
+  font-weight: 300;
+}

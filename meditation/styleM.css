@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,600;0,700;1,100;1,200;1,300&family=Ruda:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lusitana", sans-serif;
+}
+
+body {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.circle-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-outline {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 5px solid #f1f1f1;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.circle-progress {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #ffc5c7;
+  border-radius: 50%;
+  transition: 5s ease all;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.circle-grow {
+  transform: scale(5.8);
+}
+
+.instructions {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.button-inactive {
+  pointer-events: none;
+  background-color: #969696;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.pc .iconB {
+  all: unset;
+}
+.pc button:hover {
+  cursor: pointer;
+}
+.content {
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pc {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  margin-top: -30px;
+  padding: 10px;
+}
+.start {
+  padding: 8px 20px;
+  border-radius: 8px;
+  background-color: #ffc5c7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.no-span:before,
+.no-span:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 0.2rem solid white;
+  width: 2rem;
+  margin: -0.5rem 1rem;
+  transform: translateY(-1rem);
+}
+.no-span {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: white;
+}
