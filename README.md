@@ -25,11 +25,11 @@ Features Done :
 
 Todo :
 
-- [] Get Moving App
-- [] Do nothing App
-- [] Card Memory Game
-- [] Tetris
-- [] Sounds App
+- [ ] Get Moving App
+- [ ] Do nothing App
+- [ ] Card Memory Game
+- [ ] Tetris
+- [ ] Sounds App
 
 ## Built With
 
