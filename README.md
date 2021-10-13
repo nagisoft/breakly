@@ -41,7 +41,7 @@ Todo :
 
 **Bensaad Soukaina**
 
-- [Website](https://www.linkedin.com/in/soukaina-bensaad/ "Linkedin")
+- [Linkedin](https://www.linkedin.com/in/soukaina-bensaad/ "Linkedin")
 
 ## Ressources
 
@@ -59,4 +59,4 @@ Give a ⭐️ if you like this project!
 
 ## License
 
-Distributed under the GNU AGPLv3 License. See `LICENSE.txt` for more information.
+Distributed under the GNU AGPLv3 License. See `LICENSE` File for more information.
