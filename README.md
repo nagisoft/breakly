@@ -4,7 +4,11 @@ Breakly is a plateform that brings you bite sized activities to refresh yourself
 
 ## Screenshots
 
+### HOMEPAGE
+
 ![Home Page](./assets/screenshots/Homepage.gif "Home Page")
+
+### FEATURES
 
 ![Features](./assets/screenshots/features.gif "Features")
 
