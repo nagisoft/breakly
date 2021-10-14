@@ -1,6 +1,6 @@
 ## Breakly
 
-Breakly is a plateform that brings you bite sized activities to refresh yourself during your lunch or studies break.
+Breakly is a platform that brings you bite sized activities to refresh yourself during your lunch or studies break.
 
 - [Demo Website Breakly](https://nagisoft.github.io/breakly/)
 
