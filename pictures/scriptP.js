@@ -1,4 +1,3 @@
-require('dotenv').config()
 
 
 const imageContainer = document.getElementById('image-container');
@@ -12,7 +11,7 @@ let pictureArr = [];
             // Fetching Unsplash API
             const count = 10
             
-            const APIkey = process.env.APIKEYSPLASH;
+            const APIkey = YOUR_API_KEY;
             const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${APIkey}&count=${count}&query=${query};`
 
             // Check if all the images are loaded (total) to hide the loaded
