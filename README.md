@@ -6,13 +6,12 @@ Breakly is a plateform that brings you bite sized activities to refresh yourself
 
 ### HOMEPAGE
 
-![HomePage](https://s9.gifyu.com/images/Homepage7b76095ba4521fd3.gif)
-<img src="https://s9.gifyu.com/images/Homepage7b76095ba4521fd3.gif?raw=true">
+![HomePage](./assets/screenshots/features-min.gif)
 
 ### FEATURES
 
 ![Features](https://s9.gifyu.com/images/features.gif)
-<img src="https://s9.gifyu.com/images/features.gif">
+
 ## Features
 
 Features Done :
@@ -53,7 +52,7 @@ Some of the ressources used in this projects come from :
 - [Freepik](https://www.freepik.com/ "Freepik")
 - [Codepen](https://codepen.io/trending "Codepen")
 
-## 🤝 Support
+## Support
 
 Contributions, issues, and feature requests are welcome!
 
