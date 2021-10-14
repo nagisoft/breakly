@@ -8,8 +8,8 @@
 
             // Fetching Unsplash API
             const count = 10
-            // You shouldn't store API Keys publicly like this, but this is an exception because it is free and the data are anyways available.
-            const APIkey = config.APIkeySplash
+            
+            const APIkey = APIkeySplash
             const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${APIkey}&count=${count}&query=${query};`
 
             // Check if all the images are loaded (total) to hide the loaded
@@ -21,7 +21,7 @@
                 }
             }
 
-            // Helper Function to Set Attributes on DOM Elements
+            //Set Attributes on DOM Elements
             function setAttributes(element, attributes) {
                 for (const key in attributes) {
                     element.setAttribute(key, attributes[key]);
