@@ -10,7 +10,8 @@ let pictureArr = [];
 
             // Fetching Unsplash API
             const count = 10
-            
+            //For security reasons the API key is not pushed to the repo, replace with your own
+            //You can check for how the gallery works in the README of the Repo https://github.com/nagisoft/breakly
             const APIkey = YOUR_API_KEY;
             const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${APIkey}&count=${count}&query=${query};`
 

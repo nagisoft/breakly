@@ -1,7 +1,9 @@
 ## Breakly
 
 Breakly is a plateform that brings you bite sized activities to refresh yourself during your lunch or studies break.
+
 - [Demo Website Breakly](https://nagisoft.github.io/breakly/)
+
 ## Screenshots
 
 ### HOMEPAGE
@@ -11,6 +13,17 @@ Breakly is a plateform that brings you bite sized activities to refresh yourself
 ### FEATURES
 
 ![Features](./assets/screenshots/features.gif)
+
+### GALLERY
+
+This is how the Gallery works
+For security reasons, to display the gallery you need to change this line in the /pictures/scriptP.js file with your own API key
+
+```ruby
+ const APIkey = YOUR_API_KEY;
+```
+
+![Gallery](./assets/screenshots/gallery1.gif)
 
 ## Features
 
