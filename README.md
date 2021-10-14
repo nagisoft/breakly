@@ -31,6 +31,7 @@ Todo :
 - [ ] Card Memory Game
 - [ ] Tetris
 - [ ] Sounds App
+- [ ] Improve Loading Speed
 
 ## Built With
 
