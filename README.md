@@ -40,10 +40,8 @@ Todo :
 
 - [ ] Get Moving App
 - [ ] Do nothing App
-- [ ] Card Memory Game
 - [ ] Tetris
 - [ ] Sounds App
-- [ ] Improve Loading Speed
 
 ## Built With
 
